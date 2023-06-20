@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "feature-webstore": {
+      "type": "library",
+      "root": "libs/backend/feature-webstore",
+      "entryFile": "index",
+      "sourceRoot": "libs/backend/feature-webstore/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/backend/feature-webstore/tsconfig.lib.json"
+      }
+    },
+    "data-access-webstore": {
+      "type": "library",
+      "root": "libs/backend/data-access-webstore",
+      "entryFile": "index",
+      "sourceRoot": "libs/backend/data-access-webstore/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/backend/data-access-webstore/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
